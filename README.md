@@ -41,7 +41,6 @@ dotnet ef database update
 
 Your databse should be populated by now.
 
-- I have also uploaded a copy of the database in the email too in case any issue with the migration. The db only need to be imported to your MySql
 
 4 - Cloudinary settings:
 - Sign up for cloudinary and get your CloudName, APIKey and APISecret. Add them in the appsettings in the CloudinarySetting section
