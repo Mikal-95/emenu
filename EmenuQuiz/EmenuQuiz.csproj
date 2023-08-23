@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.10" />
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.21" />
+    <PackageReference Include="CloudinaryDotNet" Version="1.22.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\" />
+    <None Remove="Controllers\Product\" />
+    <None Remove="Models\" />
+    <None Remove="DTOs\" />
+    <None Remove="IRepository\" />
+    <None Remove="Services\" />
+    <None Remove="Utility\" />
+    <None Remove="IRepository\ICategoryRepository\" />
+    <None Remove="IRepository\IProductRepository\" />
+    <None Remove="Services\CategoryService\" />
+    <None Remove="Services\ProductService\" />
+    <None Remove="DTOs\CategoryDto\" />
+    <None Remove="DTOs\ProductDto\" />
+    <None Remove="Controllers\Category\" />
+    <None Remove="DTOs\ImageDto\" />
+    <None Remove="Controllers\ImageUploaderController\" />
+    <None Remove="IRepository\IPhotoUploaderRepository\" />
+    <None Remove="Services\PhotoUploaderService\" />
+    <None Remove="DTOs\PhotoDto\" />
+    <None Remove="IRepository\IImageRepository\" />
+    <None Remove="Services\ImageService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Controllers\Product\" />
+    <Folder Include="Models\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="IRepository\" />
+    <Folder Include="Services\" />
+    <Folder Include="Utility\" />
+    <Folder Include="IRepository\ICategoryRepository\" />
+    <Folder Include="IRepository\IProductRepository\" />
+    <Folder Include="Services\CategoryService\" />
+    <Folder Include="Services\ProductService\" />
+    <Folder Include="DTOs\CategoryDto\" />
+    <Folder Include="DTOs\ProductDto\" />
+    <Folder Include="Controllers\Category\" />
+    <Folder Include="DTOs\ImageDto\" />
+    <Folder Include="Controllers\ImageUploaderController\" />
+    <Folder Include="IRepository\IPhotoUploaderRepository\" />
+    <Folder Include="Services\PhotoUploaderService\" />
+    <Folder Include="DTOs\PhotoDto\" />
+    <Folder Include="IRepository\IImageRepository\" />
+    <Folder Include="Services\ImageService\" />
+  </ItemGroup>
+</Project>
