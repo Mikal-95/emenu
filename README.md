@@ -27,10 +27,14 @@ Steps to the run:
 In the terminal of the visual studio project:
 
 1 - Run:    
+
 ```
 dotnet tool install -g dotnet-ef
 ```
+
 2 - Now from inside the project run: 
+
+
 ```
 dotnet ef database update
 ```
