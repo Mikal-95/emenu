@@ -7,6 +7,7 @@ Steps to the run:
 - Microsoft.AspNetCore.Mvc.NewtonsoftJson
 - Microsoft.EntityFrameworkCore
 - Microsoft.EntityFrameworkCore.Rational
+- Microsoft.EntityFrameworkCore.Design
 - MySql.EntityFrameworkCore
 - Newtonsoft.Json
 - Swashbuckle.AspNetCore
@@ -24,8 +25,15 @@ Steps to the run:
 ```
 - Migration is provided to populate the database, to run the migration:
 In the terminal of the visual studio project:
-1 - Run:    dotnet tool install -g dotnet-ef
-2 - Now from inside the project run: dotnet ef database update
+
+1 - Run:    
+```
+dotnet tool install -g dotnet-ef
+```
+2 - Now from inside the project run: 
+```
+dotnet ef database update
+```
 
 Your databse should be populated by now.
 
